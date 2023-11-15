@@ -1,0 +1,52 @@
+.radialContainer{
+    background-color: #FBFBFB;
+    width: 25%;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+
+    position: relative;
+}
+.radialContainer h2{
+    margin-top: 0;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 15px;
+}
+.radial{
+    width: auto;
+}
+.center-circle {
+    width: 65%;
+     /* Ajustez la taille du cercle au besoin */
+     aspect-ratio: 1;
+    height: auto; /* Ajustez la taille du cercle au besoin */
+    background-color: white; /* Couleur du cercle intérieur */
+    border-radius: 50%; /* Pour créer un cercle */
+    position: absolute;
+    top: 50%; /* Centrer verticalement */
+    left: 50%; /* Centrer horizontalement */
+    transform: translate(-50%, -50%); /* Ajuster au centre */
+    align-items: center;
+    text-align: center;
+  }
+  .center-text {
+    width: 50%;
+    text-align: center; /* Centre le texte horizontalement */
+    position: absolute;
+    top: 50%; /* Centrer verticalement */
+    left: 50%; /* Centrer horizontalement */
+    transform: translate(-50%, -50%); /* Ajuster au centre */
+    font-size: 16px;
+    font-weight: 500;
+    color: #74798C;
+  }
+  .center-text span{
+    color: #282D30;
+    font-size: 26px;
+    font-weight: 700;
+  }
+  

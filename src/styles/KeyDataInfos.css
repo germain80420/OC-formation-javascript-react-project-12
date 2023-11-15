@@ -1,0 +1,18 @@
+.keydata-container{
+    display: flex;
+    background-color: #FBFBFB;
+    padding: 10px;
+    height: 10vh;
+    align-items: center;
+    border-radius: 10px;
+    
+}
+.keydata-container img{
+    align-items: center;
+    padding: 20px;
+    height: 80%;
+}
+.keydata-infos{
+    align-items: center;
+    margin-left: 15px;
+}

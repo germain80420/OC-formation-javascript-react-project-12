@@ -1,0 +1,40 @@
+/* .recharts-responsive-container{ */
+#lineChart{
+    display: flex;
+    flex-direction: column;
+    background-color: #FF0000;
+    /* width: 20%; */
+    color: white;
+    height: auto;
+    width: 26%;
+    aspect-ratio: 1/1;
+    padding: 20px;
+    padding-top: 0;
+    margin-top: 0;
+    border-radius: 10px;
+}
+
+.lineChartHeader{
+    width: 60%;
+    height: fit-content;
+    opacity: 0.5;
+
+}
+
+.lineTooltip p{
+    color: black;
+    background-color: white;
+    padding: 20px;
+}
+
+.chart{
+    margin: auto;
+    /* width: 80%;
+    padding: 0; */
+    color: white;
+    aspect-ratio: 1;
+
+}
+#lineChart{
+    z-index: 30;
+}

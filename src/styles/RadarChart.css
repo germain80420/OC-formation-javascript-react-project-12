@@ -1,0 +1,35 @@
+.radar-container{
+    width: fit-content;
+    height: auto;
+    /* aspect-ratio: 1;  */
+    background-color: #282D30;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: 0;
+    border-radius: 10px;
+
+}
+.radar{
+    
+    width: auto;
+    
+    color: white;
+    
+    width: 23%;
+    aspect-ratio: 1/1;
+
+}
+/* .rechartSurface{
+    padding: 10px;
+    margin: 10px;
+} */
+/* .recharts-polar-grid-concentric-polygon{
+    padding: 0;
+    margin: 0;
+} */
+tspan{
+    color: white !important;
+    margin-top: 10px;
+}

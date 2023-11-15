@@ -1,0 +1,43 @@
+.barChart{
+    width: auto;
+    height: 35%;
+    background-color: #FBFBFB;
+    padding: 20px;
+    margin-left: 0;
+}
+.barChartHeader{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.barChartHeader p{
+    font-weight: bold;
+}
+.barChartHeader ul{
+    display: flex;
+    list-style: none;
+    align-items: right;
+    width: auto;
+}
+.barChartHeader ul li{
+    margin-left: 40px;
+}
+li::before {
+    content: "\2022";  
+    font-weight: bold; 
+    margin: auto;
+    font-size: 2em;
+  }
+  .redDot::before{
+    color: red; 
+  }
+  .blackDot::before{
+    color: black; 
+  }
+.tooltip{
+    background-color: #E60000;
+    color: white;
+    padding: 20px;
+    margin-left: 40px;
+    margin-right: 40px;
+}

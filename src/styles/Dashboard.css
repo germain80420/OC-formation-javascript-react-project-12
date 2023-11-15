@@ -1,0 +1,30 @@
+
+.container-keydataInfos{
+    display: flex;
+    flex-direction: column;
+    width: auto;
+    height: 89%;
+    justify-content: right;
+    margin:auto;
+    margin-top: 0;
+    justify-content: space-between;
+    
+}
+.leftContainer{
+    display: flex;
+    flex-direction: column;
+    width: 77%;
+}
+.chartsContainer{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+}
+.container-dashboard{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    height: 80vh;
+    padding: 0;
+    justify-content: left;
+}
